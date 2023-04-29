@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: 100px;
+    padding: 20px;
+  }
+  .navbar a {
+    padding: 10px;
+    margin: 0 3px;
+  }
+
+  .teams img {
+    width: 70%;
+  }
+
+  .flex-colums .column {
+    flex: 100% !important;
+  }
+
+  .flex-items > div {
+    padding: 10px;
+  }
+
+  .flex-grid .column {
+    flex: 50%;
+  }
+}
